@@ -1,3 +1,7 @@
+
+//PAIR PROGRAMMING ASSIGNMENT
+//Partner : @ghulammurtaza27
+
 function reverseString(str) {
   
     var rString = str.split("").reverse().join("");
@@ -18,7 +22,6 @@ const wordSearch = (letters, word) => {
     }
 
    
-
     const verticalJoin = transpose(letters);
     const horizontalJoin2 = verticalJoin.map(lv => lv.join(''))
     for (let v of horizontalJoin2) {
@@ -32,7 +35,6 @@ const wordSearch = (letters, word) => {
     return false
 
 }
-
 
 
 const transpose = function(matrix) {
